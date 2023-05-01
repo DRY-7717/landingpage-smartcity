@@ -113,7 +113,13 @@ body {
     font-size: 12px;
     color: #374A59;
 }
-footer{
+
+.box-contact {
+    background: rgba(78, 82, 187, 0.2);
+    border-radius: 100px 100px 0px 0px;
+}
+
+footer {
     background-color: #4E52BB;
     margin-top: 100px;
 }
