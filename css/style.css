@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-hero {
+    height: 100vh;
+    background-image: url('../img/hero-section.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.section-hero::after {
+    content: '';
+    position: absolute;
+    width: 152px;
+    height: 152px;
+    background-image: url('../img/pattern1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: -75px;
+    left: 0;
+}
+
+.box-title-hero {
+    margin-top: 125px;
+}
+
+.title-hero {
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.subtitle-hero {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.body-card-branding {
+    padding-left: 90px;
+}
+
+.section-portofolio {
+    position: relative;
+    padding: 105px 0px;
+
+}
+
+
+.section-portofolio::before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1035px;
+    height: 400px;
+    background-color: #dcdcf1;
+    z-index: -5;
+}
+
+.section-portofolio::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -111px;
+    width: 152px;
+    height: 152px;
+    background-image: url('../img/pattern2.png');
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    z-index: 10;
+}
+
+.number-title-portofolio {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.title-otherproduct {
+    font-weight: 700;
+}
+
+.card-img-top {
+    height: 155px;
+    background-color: #BCD1FF;
+}
+
+.card-otherproduct {
+    box-shadow: 0px 16.3979px 43.7278px rgba(0, 0, 0, 0.06);
+    border-radius: 7px;
+    height: 300px;
+}
+
+.card-body-otherproduct {
+    background-color: #FAFAFA;
+}
+
+.card-title-otherproduct {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-text-otherproduct {
+    font-weight: 400;
+    font-size: 12px;
+    color: #374A59;
+}
+footer{
+    background-color: #4E52BB;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 834px) {
+    .box-title-hero {
+        margin-top: 100px;
+    }
+
+    .section-hero {
+        height: 700px;
+    }
+
+    .title-hero {
+        font-size: 60px;
+    }
+
+    .subtitle-hero {
+        font-size: 38px;
+    }
+
+    .desc-hero {
+        font-size: 20px;
+    }
+
+    .title-branding {
+        font-size: 36px;
+    }
+
+    .body-card-branding {
+        padding-left: inherit;
+    }
+
+    .section-portofolio::before {
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .section-hero {
+        height: 100vh;
+    }
+
+    .box-title-hero {
+        margin-top: 110px;
+    }
+
+    .title-hero {
+        font-size: 45px;
+    }
+
+    .subtitle-hero {
+        font-size: 30px;
+    }
+
+    .desc-hero {
+        font-size: inherit;
+    }
+
+    .title-branding {
+        font-size: 25px;
+    }
+
+    .body-card-branding {
+        padding: 0px 40px;
+    }
+
+    .section-portofolio::before {
+
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .box-title-hero {
+        margin-top: 90px;
+    }
+
+    .title-hero {
+        font-size: 40px;
+    }
+
+    .subtitle-hero {
+        font-size: 25px;
+    }
+
+    .body-card-branding {
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 360px) {}
